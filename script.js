@@ -10,12 +10,7 @@ class Equipo {
         this.golesFavor = parseFloat(golesFavor)
         this.golesContra = parseFloat(golesContra)
         this.difGol = parseFloat(difGol)
-    }    
-
-    /*Metodos*/
-    totalPuntos(){
-        this.puntos = this.partidosGanados*3 + this.partidosEmpatados*1 + this.partidosPerdidos*0
-    }
+    }        
 }
 
 const equipo1 = new Equipo (1, "Atletico Tucuman", 25, 12, 7, 4, 1, 13, 6, 7)
